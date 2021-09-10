@@ -40,7 +40,7 @@ function chkDelete(uid){
 		작성자 : ${list[0].name }<br>
 		제목: ${list[0].subject }<br>
 		등록일: ${list[0].regDateTime }<br>
-		조회수: ${list[0].viewcnt }<br>
+		조회수: ${list[0].viewCnt }<br>
 		내용: <br>
 		<hr>
 		<div>
@@ -51,7 +51,7 @@ function chkDelete(uid){
 		<button onclick="location.href='update.do?uid=${list[0].uid }'">수정하기</button>
 		<button onclick="location.href='list.do'">목록보기</button>
 		<button onclick="chkDelete(${list[0].uid })">삭제하기</button>
-		<button onclick="location.href='write.jsp'">신규등록</button>
+		<button onclick="location.href='write.do'">신규등록</button>
 </body>
 </html>
 				
